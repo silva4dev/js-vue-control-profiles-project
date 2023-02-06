@@ -27,7 +27,7 @@ export default {
 
             if(itens.length === 0) {
                 itens.push({
-                    message: 'Erro! Preencheu o formulário?'
+                    message: 'Error! Did you fill out the form?'
                 })
             }
 

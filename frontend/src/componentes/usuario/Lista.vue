@@ -4,7 +4,7 @@
             <v-flex>
                 <v-btn color="primary" class="ml-0 mb-4"
                     @click="obterUsuarios">
-                    Obter Usuários
+                    Get Users
                 </v-btn>
             </v-flex>
             <v-flex>
@@ -41,9 +41,9 @@ export default {
             usuarios: [],
             headers: [
                 { text: 'ID', value: 'id' },
-                { text: 'Nome', value: 'name' },
+                { text: 'Name', value: 'name' },
                 { text: 'E-mail', value: 'email' },
-                { text: 'Perfis', value: 'perfis' },
+                { text: 'Profiles', value: 'perfis' },
             ],
         }
     },

@@ -3,7 +3,7 @@
         <v-layout>
             <v-flex>
                 <v-layout column class="ma-3">
-                    <h1 class="headline">Excluir Usuário</h1>
+                    <h1 class="headline">Delete User</h1>
                     <v-divider class="mb-3" />
                     <div v-if="erros">
                         <Erros :erros="erros" />
@@ -15,18 +15,18 @@
 
                     <v-btn color="error" class="ml-0 mt-3"
                         @click="excluirUsuario">
-                        Excluir Usuário
+                        Delete User
                     </v-btn>
                 </v-layout>
             </v-flex>
             <v-flex>
                 <v-layout column class="ma-3">
-                    <h1 class="headline">Resultado</h1>
+                    <h1 class="headline">Result</h1>
                     <v-divider />
                     <template v-if="dados">
                         <v-text-field label="ID" readonly
                             v-model="dados.id" />
-                        <v-text-field label="Nome" readonly
+                        <v-text-field label="Name" readonly
                             v-model="dados.nome" />
                         <v-text-field label="E-mail" readonly
                             v-model="dados.email" />

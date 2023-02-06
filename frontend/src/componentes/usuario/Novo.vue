@@ -3,18 +3,18 @@
         <v-layout>
             <v-flex>
                 <v-layout column class="ma-3">
-                    <h1 class="headline">Novo Usuário</h1>
+                    <h1 class="headline">New User</h1>
                     <v-divider class="mb-3" />
                         <div v-if="erros">
                             <Erros :erros="erros" />
                         </div>
-                        <v-text-field label="Nome"
+                        <v-text-field label="Name"
                             v-model="usuario.nome" />
                         <v-text-field label="E-mail"
                             v-model="usuario.email" />
-                        <v-text-field label="Senha"
+                        <v-text-field label="Password"
                             v-model="usuario.senha" type="password" />
-                        <v-select label="Perfis"
+                        <v-select label="Profiles"
                             v-model="usuario.perfis"
                             :items="perfis"
                             item-value="id"
@@ -23,26 +23,26 @@
                             chips deletable-chips />
                         <v-btn class="ml-0 mt-3"
                             @click="obterPerfis">
-                            Obter Perfis
+                            Get Profiles
                         </v-btn>
                         <v-btn color="primary" class="ml-0 mt-3"
                             @click="novoUsuario">
-                            Novo Usuário
+                            New User
                         </v-btn>
                 </v-layout>
             </v-flex>
             <v-flex>
                 <v-layout column class="ma-3">
-                    <h1 class="headline">Resultado</h1>
+                    <h1 class="headline">Result</h1>
                     <v-divider />
                     <template v-if="dados">
                         <v-text-field label="ID" readonly
                             v-model="dados.id" />
-                        <v-text-field label="Nome" readonly
+                        <v-text-field label="Name" readonly
                             v-model="dados.nome" />
                         <v-text-field label="Email" readonly
                             v-model="dados.email" />
-                        <v-text-field label="Perfis" readonly
+                        <v-text-field label="Profiles" readonly
                             :value="perfisRotulos" />
                     </template>
                 </v-layout>

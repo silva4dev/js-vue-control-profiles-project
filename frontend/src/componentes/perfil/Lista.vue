@@ -4,7 +4,7 @@
             <v-flex>
                 <v-btn color="primary" class="ml-0 mb-4"
                     @click="obterPerfis">
-                    Obter Perfis
+                    Get Profiles
                 </v-btn>
             </v-flex>
             <v-flex>
@@ -38,8 +38,8 @@ export default {
             perfis: [],
             headers: [
                 { text: 'ID', value: 'id' },
-                { text: 'Nome', value: 'name' },
-                { text: 'Rótulo', value: 'rotulo' },
+                { text: 'Name', value: 'name' },
+                { text: 'Label', value: 'rotulo' },
             ],
         }
     },

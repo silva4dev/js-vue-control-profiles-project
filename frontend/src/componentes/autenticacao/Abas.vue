@@ -4,10 +4,10 @@
             color="grey lighten-3"
             slider-color="blue">
             <v-tab ripple>
-                Registrar
+                Sign up
             </v-tab>
             <v-tab ripple>
-                Login
+                Sign in
             </v-tab>
             <v-tab-item>
                 <Registrar />

@@ -8,17 +8,17 @@
 				<v-tabs-slider color="white"></v-tabs-slider>
 
 				<v-tab>
-					Autenticação
+					Authentication
 					<v-icon>fingerprint</v-icon>
 				</v-tab>
 
 				<v-tab>
-					Usuários
+					Users
 					<v-icon>people</v-icon>
 				</v-tab>
 
 				<v-tab>
-					Perfis
+					Profiles
 					<v-icon>how_to_reg</v-icon>
 				</v-tab>
 

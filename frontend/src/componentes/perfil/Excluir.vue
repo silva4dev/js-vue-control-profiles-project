@@ -3,32 +3,32 @@
         <v-layout>
             <v-flex>
                 <v-layout column class="ma-3">
-                    <h1 class="headline">Excluir Perfil</h1>
+                    <h1 class="headline">Delete Profile</h1>
                     <v-divider class="mb-3" />
                     <div v-if="erros">
                         <Erros :erros="erros" />
                     </div>
                     <v-text-field label="ID"
                         v-model.number="filtro.id" />
-                    <v-text-field label="Nome"
+                    <v-text-field label="Name"
                         v-model="filtro.nome" />
 
                     <v-btn color="error" class="ml-0 mt-3"
                         @click="excluirPerfil">
-                        Excluir Perfil
+                        Delete Profile
                     </v-btn>
                 </v-layout>
             </v-flex>
             <v-flex>
                 <v-layout column class="ma-3">
-                    <h1 class="headline">Resultado</h1>
+                    <h1 class="headline">Result</h1>
                     <v-divider />
                     <template v-if="dados">
                         <v-text-field label="ID" readonly
                             v-model="dados.id" />
-                        <v-text-field label="Nome" readonly
+                        <v-text-field label="Name" readonly
                             v-model="dados.nome" />
-                        <v-text-field label="Rótulo" readonly
+                        <v-text-field label="Label" readonly
                             v-model="dados.rotulo" />
                     </template>
                 </v-layout>

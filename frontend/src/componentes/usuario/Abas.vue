@@ -3,23 +3,23 @@
         <v-tabs color="grey lighten-3"
             slider-color="blue">
             <v-tab ripple>
-                Lista
+                List
             </v-tab>
             
             <v-tab ripple>
-                Consulta
+                Query
             </v-tab>
 
             <v-tab ripple>
-                Novo
+                New
             </v-tab>
 
             <v-tab ripple>
-                Alterar
+                Update
             </v-tab>
 
             <v-tab ripple>
-                Excluir
+                Delete
             </v-tab>
 
             <v-tab-item>

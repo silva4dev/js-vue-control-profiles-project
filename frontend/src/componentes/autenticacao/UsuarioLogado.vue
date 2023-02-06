@@ -6,7 +6,7 @@
                 <span class="headline blue--text text--darken-2">
                     {{ usuario.id }}</span>
 
-                <span class="ml-3 headline"><strong>Nome: </strong></span>
+                <span class="ml-3 headline"><strong>Name: </strong></span>
                 <span class="headline blue--text text--darken-2">
                     {{ usuario.nome }}</span>
 
@@ -14,7 +14,7 @@
                 <span class="headline blue--text text--darken-2">
                     {{ usuario.email }}</span>
 
-                <span class="ml-3 headline"><strong>Perfis: </strong></span>
+                <span class="ml-3 headline"><strong>Profiles: </strong></span>
                 <span class="headline red--text text--darken-2">
                     {{ perfis }}</span>
             </v-flex>
@@ -23,7 +23,7 @@
             <v-flex shrink>
                 <v-btn color="error"
                     @click="setUsuario(null)">
-                    Sair
+                    Logout
                 </v-btn>
             </v-flex>
         </v-layout>
